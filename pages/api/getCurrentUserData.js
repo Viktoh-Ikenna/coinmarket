@@ -1,4 +1,4 @@
-import { client } from '../../lib/client'
+// import { client } from '../../lib/client'
 
 export default getCurrentUser = async (req, res) => {
   console.log("<<<<<<<<<<<<<<<THIS IS FECTHING CURRENT USER DATA>>>>>>>>>>>>", req.query.account);
@@ -9,8 +9,8 @@ export default getCurrentUser = async (req, res) => {
   }`
 
   try {
-    const sanityResponse = await client.fetch(query)
-    res.status(200).send(await sanityResponse[0])
+    // const sanityResponse = await client.fetch(query)
+    res.status(200).send("await sanityResponse[0]")
   } catch (error) {
     console.error(error, "SANITY ERROR")
     res.status(500).send(error)
