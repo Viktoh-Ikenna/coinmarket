@@ -1,5 +1,5 @@
 import { client } from '../../lib/client'
-
+console.log("okere")
 export default createUser = async (req, res) => {
   const { userAddress } = req.body
 
