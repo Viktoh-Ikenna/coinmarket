@@ -1,4 +1,5 @@
-{  "name": "bts-coinmarketcap-blockchain",
+{
+  "name": "bts-coinmarketcap-blockchain",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,6 +16,7 @@
     "gun": "^0.2020.1235",
     "magic-sdk": "^8.1.0",
     "moralis": "^1.5.9",
+    "netlify-cli": "^12.2.1",
     "next": "12.1.0",
     "react": "17.0.2",
     "react-chartjs-2": "^4.0.1",
